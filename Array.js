@@ -21,6 +21,6 @@ console.log(paragraph.substring(paragraph.search(u)));
 
 var m = paragraph.match(u);
 console.log(m);
+// Array ["quick"]
 
 
-console.log(null.toString());
