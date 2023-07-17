@@ -63,3 +63,4 @@ function equalsArray(arr1, arr2) {
 console.log(JSON.stringify(equals(["apple","ball"], ["apple","ball"]), null, "  "));
 console.log(JSON.stringify(equals(["apple","ball"], ["ball","apple"]), null, "  "));
 console.log(JSON.stringify(equals(["apple","ball","cat"], ["ball","apple"]), null, "  "));
+console.log(JSON.stringify(equals(["apple","ball","cat"], []), null, "  "));
