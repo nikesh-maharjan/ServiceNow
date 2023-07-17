@@ -1,0 +1,34 @@
+{
+    "result": {
+        "_row_data": {
+            "displayValue": "",
+            "uniqueValue": ""
+        },
+        "py__id": {
+            "value": "",
+            "displayValue": ""
+        },
+        "status": {
+            "value": "",
+            "displayValue": "",
+            "_reference": {
+                "status_id": {
+                    "value": "",
+                    "displayValue": ""
+                }
+            }
+        }
+    },
+    "items": [
+        {
+            "label": "",
+            "id": "",
+            "value": ""
+        },
+        {
+            "label": "",
+            "id": "",
+            "value": ""
+        }
+    ]
+}
