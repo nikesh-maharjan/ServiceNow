@@ -1,0 +1,633 @@
+[
+    {
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "Home"
+            },
+            "type": "route",
+            "value": {
+                "route": "home"
+            }
+        }
+    },
+    {
+        "condition": {
+            "roles": [
+                "admin",
+                "scope.admin"
+            ]
+        },
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "Prior Year Audit Requests"
+            },
+            "type": "route",
+            "value": {
+                "route": "prior-year-audit-requests",
+                "fields": {
+                    "currDate": "1"
+                }
+            }
+        }
+    },
+    {
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "funcArea1"
+            }
+        },
+        "children": {
+            "items": [
+                {
+                    "value": {
+                        "label": {
+                            "translatable": true,
+                            "message": "funcArea1"
+                        }
+                    },
+                    "children": {
+                        "items": [
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Dashboard"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "chart-treemap-outline",
+                                    "value": {
+                                        "route": "funcArea1-landing",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Create New funcArea1"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "plus-fill",
+                                    "value": {
+                                        "route": "create-new-funcArea1",
+                                        "fields": {
+                                            "sysId": "-1",
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Upload funcArea1s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "upload-outline",
+                                    "value": {
+                                        "route": "import-funcArea1-requests",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All funcArea1s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "funcArea1-review-all",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Reports and Metrics"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "lightning-outline",
+                                    "value": {
+                                        "route": "funcArea1-reports-metrics"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "FuncArea2"
+            }
+        },
+        "children": {
+            "items": [
+                {
+                    "value": {
+                        "label": {
+                            "translatable": true,
+                            "message": "FuncArea2"
+                        }
+                    },
+                    "children": {
+                        "items": [
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Dashboard"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "chart-treemap-outline",
+                                    "value": {
+                                        "route": "funcArea2-landing",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Create New Func Area 2"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "plus-fill",
+                                    "value": {
+                                        "route": "create-new-funcArea2",
+                                        "fields": {
+                                            "sysId": "-1",
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All Func Area 2 Requests"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "funcArea2-review-all",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Reports and Metrics"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "lightning-outline",
+                                    "value": {
+                                        "route": "funcArea2-reports-metrics"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "Func Area 3"
+            }
+        },
+        "children": {
+            "items": [
+                {
+                    "value": {
+                        "label": {
+                            "translatable": true,
+                            "message": "Func Area 3"
+                        }
+                    },
+                    "children": {
+                        "items": [
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Dashboard"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "chart-treemap-outline",
+                                    "value": {
+                                        "route": "FuncArea3-landing",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin",
+                                        "scope.level_2_support"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "UnfuncArea6d FuncArea3 Groups"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "book-outline",
+                                    "value": {
+                                        "route": "FuncArea3-groups-unfuncArea6d",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Actionable FuncArea4s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "chat-outline",
+                                    "value": {
+                                        "route": "actionable-FuncArea4s",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Actionable funcArea5s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "document-code-outline",
+                                    "value": {
+                                        "route": "actionable-funcArea5s",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All Func Area 3"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "all-FuncArea3",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All FuncArea3 Groups"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "FuncArea3-review-all",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All FuncArea4"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "all-FuncArea4s",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All funcArea5s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "all-funcArea5s",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Import FuncArea3"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "upload-outline",
+                                    "value": {
+                                        "route": "import-FuncArea3",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Reports and Metrics"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "lightning-outline",
+                                    "value": {
+                                        "route": "FuncArea3-reports-metrics"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "funcArea6s"
+            }
+        },
+        "children": {
+            "items": [
+                {
+                    "value": {
+                        "label": {
+                            "translatable": true,
+                            "message": "funcArea6s"
+                        }
+                    },
+                    "children": {
+                        "items": [
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Dashboard"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "chart-treemap-outline",
+                                    "value": {
+                                        "route": "funcArea6s-landing",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Create New funcArea6"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "plus-fill",
+                                    "value": {
+                                        "route": "funcArea6-details",
+                                        "fields": {
+                                            "sysId": "-1",
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "All funcArea6s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "magnifying-glass-fill",
+                                    "value": {
+                                        "route": "funcArea6s-review-all",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Import funcArea6s"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "upload-outline",
+                                    "value": {
+                                        "route": "import-funcArea6s",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Reports and Metrics"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "lightning-outline",
+                                    "value": {
+                                        "route": "funcArea6-reports-metrics"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "value": {
+            "label": {
+                "translatable": true,
+                "message": "funcArea7"
+            }
+        },
+        "children": {
+            "items": [
+                {
+                    "value": {
+                        "label": {
+                            "translatable": true,
+                            "message": "funcArea7"
+                        }
+                    },
+                    "children": {
+                        "items": [
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Dashboard"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "chart-treemap-outline",
+                                    "value": {
+                                        "route": "funcArea7-landing",
+                                        "fields": {
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "roles": [
+                                        "admin",
+                                        "scope.user",
+                                        "scope.admin"
+                                    ]
+                                },
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "funcArea6 New funcArea7"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "plus-fill",
+                                    "value": {
+                                        "route": "funcArea7-details",
+                                        "fields": {
+                                            "sysId": "-1",
+                                            "currDate": "1"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "value": {
+                                    "label": {
+                                        "translatable": true,
+                                        "message": "Reports and Metrics"
+                                    },
+                                    "type": "route",
+                                    "leftIcon": "lightning-outline",
+                                    "value": {
+                                        "route": "funcArea7-reports-metrics"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

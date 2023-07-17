@@ -1,0 +1,20 @@
+{
+    "elementId": "dropdown_2",
+    "name": "NOW_DROPDOWN#SELECTED_ITEMS_SET",
+    "payload": {
+        "value": [
+            "pbc"
+        ],
+        "items": [
+            {
+                "id": "pbc",
+                "label": "PBC",
+                "table": "x_813128_aah_pbc_2"
+            }
+        ]
+    },
+    "context": {},
+    "eventInfo": {
+        "sourceElementId": "clij1h3va00043n7rzn14ljsy"
+    }
+}
