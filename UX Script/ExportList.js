@@ -14,7 +14,7 @@ function handler({api, event, helpers, imports}) {
         const listFilter = api.state.listFilter; // set by user
         const selectedRows = api.state.selectedRows;
         /********************************************************/
-        const {getListExportUrl} = imports["x_813128_aah.AFACTListUtils"]();
+        const {getListExportUrl} = imports["scope.ListUtils"]();
         var url = getListExportUrl(tableName, viewName, fixedFilter, listFilter, selectedRows);
         
         // EMIT EVENT
