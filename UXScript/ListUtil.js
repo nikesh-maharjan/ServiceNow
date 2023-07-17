@@ -57,7 +57,15 @@ function include({ imports }) {
         // Combine Fixed and list filter
         var combinedFilter = (function () {
             var queryArr = fixedFilter ? fixedFilter.split("^NQ") : ([""]);
-            var newQueryArr = queryArr.map(query => query + "^" + listFilter);
+            
+            // add listFilter to Fixed Filter
+            var newQueryArr = queryArr.map((query) => {
+                if (listFilter) {
+                    return  query + "^" + listFilter;
+                } else {
+                    return query;
+                }
+            });
             // AFACT-2182 If user has selected specific records from the list
             
             // console.log("typeof: " + Array.isArray(selectedRowArr));
