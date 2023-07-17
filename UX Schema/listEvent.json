@@ -1,0 +1,62 @@
+[
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#SELECTED_RECORD_COUNT_UPDATED",
+        "payload": {
+            "allRecordsSelected": false,
+            "selectedRecords": [
+                "a664f1ba9742e110e19471511153af96"
+            ],
+            "exceptedRecords": [],
+            "selectionCount": 1,
+            "query": "sys_idINa664f1ba9742e110e19471511153af96",
+            "table": "scope_funcArea1_2"
+        },
+        "context": {}
+    },
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#SELECTED_RECORD_COUNT_UPDATED",
+        "payload": {
+            "selectionCount": 416983,
+            "allRecordsSelected": true,
+            "selectedRecords": [],
+            "exceptedRecords": [],
+            "query": "returned_partial_choiceINNo,Yes,yes^ORDERBYDESCdate_issued^ORreturned_partial_choice=null",
+            "table": "scope_funcArea1_2"
+        },
+        "context": {}
+    },
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+        "payload": {
+            "listTable": "scope_funcArea5",
+            "listTitle": "All Submitted Requests",
+            "nativeEvent": {
+                "isTrusted": true
+            },
+            "recordTable": "scope_funcArea3",
+            "row": {
+                "sys_id": {
+                    "value": "06419e180768e1101782f1d08c1ed0af"
+                },
+                "referenceKeyValue": {
+                    "value": "9c37441adb996d907e94f9f6f39619ba"
+                },
+                "displayValue": {
+                    "value": "ID"
+                },
+                "rowData": {
+                    "value": {}
+                }
+            },
+            "table": "scope_funcArea3",
+            "sys_id": "06419e180768e1101782f1d08c1ed0af"
+        },
+        "context": {},
+        "eventInfo": {
+            "sourceElementId": "clianuauy000h3n7reb8zd2uq"
+         }
+    }
+]
