@@ -1,0 +1,70 @@
+[
+    {
+      "name": "sys_id",
+      "label": "sys_id",
+      "description": "",
+      "readOnly": false,
+      "fieldType": "string",
+      "mandatory": true,
+      "defaultValue": ""
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "description": "Assignment or Update",
+      "readOnly": false,
+      "fieldType": "choice",
+      "valueType": "string",
+      "mandatory": true,
+      "defaultValue": "update",
+      "typeMetadata": {
+        "choices": [
+          {
+            "label": "Assign",
+            "value": "assign"
+          },
+          {
+            "label": "Update",
+            "value": "update"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sys_ids",
+      "label": "Selected Records SysId",
+      "description": "Sys Ids of the selected Records",
+      "readOnly": false,
+      "fieldType": "string",
+      "mandatory": true,
+      "defaultValue": ""
+    },
+    {
+      "name": "payload",
+      "label": "Payload",
+      "description": "Payload fired when list selection count is updated",
+      "readOnly": false,
+      "fieldType": "json",
+      "mandatory": true,
+      "defaultValue": {}
+    },
+    {
+      "name": "selectedTabIndex",
+      "label": "selectedTabIndex",
+      "fieldType": "string",
+      "typeMetadata": {
+        "choices": [],
+        "schema": {
+          "type": "number"
+        },
+        "translatable": false
+      },
+      "valueType": "number",
+      "mandatory": false,
+      "defaultValue": 0,
+      "description": "",
+      "readOnly": false,
+      "selectable": false,
+      "disabled": false
+    }
+  ]
