@@ -6,7 +6,7 @@
  * @param {ApiHelpers} params.helpers
  */
 function handler({api, event, helpers, imports}) {
-    api.setState("selectedRecordPayload", event.payload); //AFACT-2534
+    api.setState("selectedRecordPayload", event.payload);
     if (event.payload.allRecordsSelected) {
         api.setState('selectedRows', 'all');
     } else {

@@ -1,0 +1,8 @@
+1. go to UIB and go the the parent page the viewport is objectConstructor
+2. navigate to the viewport page, note the name of the sub-page
+3. Click Settings and delete the variant
+    Note: Deleting varient deletes macropoent page definition and UX Screen
+    Deleting page deletes only the route
+4. navigate to the sys_ux_screen_type_list.do and enter the name of the subpage from set 2
+5. delete the route and screen type since they do not get deleted
+
