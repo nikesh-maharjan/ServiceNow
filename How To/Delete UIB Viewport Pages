@@ -3,6 +3,7 @@
 3. Click Settings and delete the variant
     Note: Deleting varient deletes macropoent page definition and UX Screen
     Deleting page deletes only the route
+    When UXScreen is deleted, related macropoent page definition also gets deleted
 4. navigate to the sys_ux_screen_type_list.do and enter the name of the subpage from set 2
 5. delete the route and screen type since they do not get deleted
 

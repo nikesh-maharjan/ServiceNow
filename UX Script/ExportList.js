@@ -12,10 +12,12 @@ function handler({api, event, helpers, imports}) {
         const viewName = "export";
         const fixedFilter = api.data.get_user_group_query_all_1.output; // set by system
         const listFilter = api.state.listFilter; // set by user
-        const selectedRows = api.state.selectedRows;
+        // const selectedRows = api.state.selectedRows;
+        const selectedRecordPayload = api.state.selectedRecordPayload;
         /********************************************************/
         const {getListExportUrl} = imports["scope.ListUtils"]();
-        var url = getListExportUrl(tableName, viewName, fixedFilter, listFilter, selectedRows);
+        // var url = getListExportUrl(tableName, viewName, fixedFilter, listFilter, selectedRows);
+        var url = getListExportUrl(tableName, viewName, fixedFilter, listFilter, selectedRecordPayload);
         
         // EMIT EVENT
         api.emit('NAV_ITEM_SELECTED', {
