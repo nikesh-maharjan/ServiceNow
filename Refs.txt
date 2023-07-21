@@ -1,3 +1,11 @@
 https://frontendmasters.com/trial/?utm_source=BSA_MDN&utm_medium=banner&utm_content=v1
+https://frontendmasters.com/courses/web-development-v3/common-html-tags/
+
 https://developer.mozilla.org/en-US/play
 https://docs.github.com/en/codespaces
+https://codepen.io/pen/?editors=1111
+
+
+
+https://developer.servicenow.com/dev.do#!/reference/api/utah/server/sn_impex-namespace/GlideExcelParserScopedAPI#GEPS-getRow?navFilter=exc
+https://www.ninjabytes.blog/uib_advance/part-1-create-custom-component-ui-builder-1/
