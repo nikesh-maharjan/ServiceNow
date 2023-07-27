@@ -1,0 +1,175 @@
+[
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#SELECTED_RECORD_COUNT_UPDATED",
+        "payload": {
+            "allRecordsSelected": false,
+            "selectedRecords": [
+                "a664f1ba9742e110e19471511153af96"
+            ],
+            "exceptedRecords": [],
+            "selectionCount": 1,
+            "query": "sys_idINa664f1ba9742e110e19471511153af96",
+            "table": "scope_funcArea1_2"
+        },
+        "context": {}
+    },
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#SELECTED_RECORD_COUNT_UPDATED",
+        "payload": {
+            "selectionCount": 416983,
+            "allRecordsSelected": true,
+            "selectedRecords": [],
+            "exceptedRecords": [],
+            "query": "returned_partial_choiceINNo,Yes,yes^ORDERBYDESCdate_issued^ORreturned_partial_choice=null",
+            "table": "scope_funcArea1_2"
+        },
+        "context": {}
+    },
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+        "payload": {
+            "listTable": "scope_funcArea5",
+            "listTitle": "All Submitted Requests",
+            "nativeEvent": {
+                "isTrusted": true
+            },
+            "recordTable": "scope_funcArea3",
+            "row": {
+                "sys_id": {
+                    "value": "06419e180768e1101782f1d08c1ed0af"
+                },
+                "referenceKeyValue": {
+                    "value": "9c37441adb996d907e94f9f6f39619ba"
+                },
+                "displayValue": {
+                    "value": "ID"
+                },
+                "rowData": {
+                    "value": {}
+                }
+            },
+            "table": "scope_funcArea3",
+            "sys_id": "06419e180768e1101782f1d08c1ed0af"
+        },
+        "context": {},
+        "eventInfo": {
+            "sourceElementId": "clianuauy000h3n7reb8zd2uq"
+         }
+    },
+    {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#QUERY_UPDATED",
+        "payload": {
+          "prevQuery": "ORDERBYDESCdate",
+          "table": "scope_table",
+          "query": "ORDERBYDESCdate^status=new",
+          "fixedQuery": "active=true"
+        },
+        "context": {},
+        "eventInfo": {
+          "sourceElementId": "clkhc597u002g3o7ts27p3hcp"
+        }
+      },
+      {
+        "elementId": "list_1",
+        "name": "NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+        "payload": {
+          "model": {
+            "tableMetadata": {
+              "isScriptableTable": false,
+              "isGrouped": false,
+              "groupedColumn": "",
+              "groupByDisplayValue": "",
+              "isDBView": false,
+              "dateFormat": "yyyy-MM-dd",
+              "timeFormat": "HH:mm:ss",
+              "dateTimeFormat": "yyyy-MM-dd HH:mm:ss",
+              "canCreateGlobalTags": false,
+              "m2MData": {
+                "isM2M": false,
+                "sourceField": "",
+                "targetTable": "",
+                "targetField": ""
+              }
+            },
+            "preferenceData": [
+              {
+                "name": "workspace.list.columnOrder.Select...",
+                "value": null
+              },
+              {
+                "name": "workspace.list.scope_table.groupBy.  .tables",
+                "value": null
+              },
+              {
+                "name": "workspace.list.scope_table.orderBy",
+                "value": null
+              },
+              {
+                "name": "workspace.list.columnWidths.Select...",
+                "value": "[306, 248, 120, 252, 162, 120, 120, 200, 190, 164.078, 186.109, 228, 147.234, 158.422, 156.438, 181.516, 240.578, 119.562, 79.0312, 106.781]"
+              },
+              {
+                "name": "workspace.list.scope_table.groupBy.  .defaultAsOpen",
+                "value": null
+              }
+            ],
+            "listAttributes": {
+              "omit_count": false
+            },
+            "allColumns": {},
+            "layoutQuery": {
+              "allSysIds": [
+                "bf8e63504780b91097af30ed436d43ad",
+                "dff4c83047083d1097af30ed436d4341",
+                "ede4843047083d1097af30ed436d4305",
+                "6b57f40b4708b11097af30ed436d43c5",
+                "aa6b7cf5475b215097af30ed436d433e",
+                "6ee7a3d04740b91097af30ed436d43cc",
+                "7415cc3047083d1097af30ed436d430b",
+                "c2042f584700b91097af30ed436d435e",
+                "46e6b8c74708b11097af30ed436d43cb",
+                "197e63504780b91097af30ed436d4339"
+              ],
+              "count": 36,
+              "groupCount": -1,
+              "isChoiceAggregate": false,
+              "isOmitCount": false,
+              "omitCountData": null,
+              "orderByColumn": "field",
+              "orderByIsDescending": true,
+              "encodedQuery": "eyJvcmRlcl9ieSI6W3siYXNjZW5kaW5nIjpmYWxzZSwiY29sdW1uX2xhYmVsIjoiRHVlIHRvIEF1ZGl0b3IiLCJjb2x1bW5fbmFtZSI6ImR1ZV90b19hdWRpdG9yIn1dLCJncm91cF9ieSI6W10sInByZWRpY2F0ZXMiOlt7ImNvbXBvdW5kX3R5cGUiOiJvciIsInN1YnByZWRpY2F0ZXMiOlt7ImNvbXBvdW5kX3R5cGUiOiJhbmQiLCJzdWJwcmVkaWNhdGVzIjpbeyJjb21wb3VuZF90eXBlIjoiYW5kIiwic3VicHJlZGljYXRlcyI6W10sInR5cGUiOiJjb21wb3VuZCJ9XSwidHlwZSI6ImNvbXBvdW5kIn1dLCJ0eXBlIjoiY29tcG91bmQifV0sImhhc19ybHFfY29uZGl0aW9ucyI6ZmFsc2V9",
+              "table": "scope_table",
+              "liveLists": false,
+              "inlineEditingEnabled": false,
+              "queryRows": {}
+            },
+            "tinyUrl": "8ff987aa470cbd5097af30ed436d430d",
+            "tinyFields": {
+              "tinyUrl": "8ff987aa470cbd5097af30ed436d430d",
+              "listTitle": "All%20Submitted%20Requests",
+              "listId": "Select...",
+              "table": "scope_table",
+              "columns": "colA,ColB",
+              "query": "ORDERBYDESCfield",
+              "fixedQuery": "active=true",
+              "menuSelection": "",
+              "tableLabel": "table"
+            },
+            "countFetchCompleted": true
+          },
+          "declarativeActions": [],
+          "listTitle": "All Submitted Requests",
+          "query": "ORDERBYDESCfield",
+          "table": "scope_table",
+          "timestamp": 1690235526093
+        },
+        "context": {},
+        "eventInfo": {
+          "sourceElementId": "clkhel9zy00033o7tan9xc9kh"
+        }
+      }
+]

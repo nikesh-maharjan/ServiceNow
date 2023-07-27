@@ -1,0 +1,11 @@
+[
+    {
+        "elementId": "button_46",
+        "name": "NOW_BUTTON#CLICKED",
+        "payload": {},
+        "context": {},
+        "eventInfo": {
+            "sourceElementId": "clkiiqvnm00033o7t1eukj7qc"
+        }
+    }
+]
