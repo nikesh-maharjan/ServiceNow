@@ -1,0 +1,64 @@
+[
+  {
+    "name": "function",
+    "label": "Function",
+    "description": "Name of function in Server Util",
+    "readOnly": false,
+    "fieldType": "json",
+    "mandatory": true,
+    "defaultValue": {}
+  },
+  {
+    "name": "payload",
+    "label": "Payload",
+    "description": "Payload with key value pair",
+    "readOnly": false,
+    "fieldType": "json",
+    "mandatory": true,
+    "defaultValue": {}
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "description": "Assignment or Update",
+    "readOnly": false,
+    "fieldType": "choice",
+    "valueType": "string",
+    "mandatory": true,
+    "defaultValue": "update",
+    "typeMetadata": {
+      "choices": [
+        {
+          "label": "Assign",
+          "value": "assign"
+        },
+        {
+          "label": "Update",
+          "value": "update"
+        }
+      ]
+    }
+  },
+  {
+    "name": "action",
+    "label": "Action",
+    "description": "Assignment Type",
+    "readOnly": false,
+    "fieldType": "choice",
+    "valueType": "string",
+    "mandatory": true,
+    "defaultValue": "bulk_assign_l3",
+    "typeMetadata": {
+      "choices": [
+        {
+          "label": "Bulk Assign Level 3",
+          "value": "bulk_assign_l3"
+        },
+        {
+          "label": "Bulk Assign Level 4",
+          "value": "bulk_assign_l4"
+        }
+      ]
+    }
+  }
+]
