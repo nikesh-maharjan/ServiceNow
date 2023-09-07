@@ -36,16 +36,16 @@ function handler({ api, event, helpers, imports }) {
                 teacherFieldValue = teacherFieldValue != "" ? teacherFieldValue + "," + currValue[filterItem] : currValue[filterItem];
 
                 //teacherFieldValue = filterItem.values.length ? filterItem.values.join(",") : "";
-            } else if (currFilterId === sampleGroupFilterId) {
-                // console.log("Found Sample Group Filter");
-                sampleGroupsFieldValue = sampleGroupsFieldValue != "" ? sampleGroupsFieldValue + "," + currValue[filterItem] : currValue[filterItem];
-                //sampleGroupsFieldValue = filterItem.values.length ? filterItem.values.join(",") : "";
-            } else if (currFilterId === sampleFilterId) {
-                // console.log("Found Sample Filter");
-                samplesFieldValue = samplesFieldValue != "" ? samplesFieldValue + "," + currValue[filterItem] : currValue[filterItem];
-                // samplesFieldValue = filterItem.values.length ? filterItem.values.join(",") : "";
+            } else if (currFilterId === t4GroupFilterId) {
+                // console.log("Found t4 Group Filter");
+                t4GroupsFieldValue = t4GroupsFieldValue != "" ? t4GroupsFieldValue + "," + currValue[filterItem] : currValue[filterItem];
+                //t4GroupsFieldValue = filterItem.values.length ? filterItem.values.join(",") : "";
+            } else if (currFilterId === t4FilterId) {
+                // console.log("Found t4 Filter");
+                t4sFieldValue = t4sFieldValue != "" ? t4sFieldValue + "," + currValue[filterItem] : currValue[filterItem];
+                // t4sFieldValue = filterItem.values.length ? filterItem.values.join(",") : "";
             } else if (currFilterId === fluFilterId) {
-                // console.log("Found Follow Up Filter");
+                // console.log("Found t5 Up Filter");
                 fluFieldValue = fluFieldValue != "" ? fluFieldValue + "," + currValue[filterItem] : currValue[filterItem];
             }
         }

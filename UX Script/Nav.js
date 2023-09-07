@@ -11,7 +11,7 @@ function handler({api, event, helpers, imports}) {
         'sysId': '-1',
         'currDate': date
     }, {
-        'sampleId': api.context.props.sysId
+        't4Id': api.context.props.sysId
     }, true);
     helpers.navigate.to('funcArea5-detail',{
         'sysId': '-1',

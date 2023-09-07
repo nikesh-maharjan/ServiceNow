@@ -7,7 +7,7 @@
 */
 function handler({api, event, helpers, imports}) {
     // console.log("Event: " + JSON.stringify(event, null, "  "));
-    if (event.payload.table === "scope_sample") {
+    if (event.payload.table === "scope_t4") {
         var date = new Date().getTime();
         helpers.navigate.to("funcArea3-details", {
             'sysId': event.payload.sys_id,  'currDate': date

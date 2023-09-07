@@ -42,7 +42,7 @@ function handler({api, event, helpers, imports}) {
         }
 
         if (missingFieldArr.length > 0) {
-            addErrorMessage("The following required fields are missing. "+ missingFieldArr.join());
+            addErrorMessage("The t5ing required fields are missing. "+ missingFieldArr.join());
         } else {
             isSaveSuccessfull = true;
         }
