@@ -2,7 +2,7 @@ function include({ imports }) {
     const listFieldQuery = function (fieldName, lookupArray, searchValue) {
         var encodedLevel4 = "";
         for (var i in lookupArray) { //looping over
-            var display = lookupArray[i]._row_data.displayValue; //set to each iterative level 4 item
+            var display = lookupArray[i]._row_data.displayValue; //set to each iterative l4 item
             //console.log('23 ' + display);
             if (display != null && display != "") {
                 display = display.toString();

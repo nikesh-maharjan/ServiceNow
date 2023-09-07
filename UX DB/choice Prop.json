@@ -51,11 +51,11 @@
     "typeMetadata": {
       "choices": [
         {
-          "label": "Bulk Assign Level 3",
+          "label": "Bulk Assign L3",
           "value": "bulk_assign_l3"
         },
         {
-          "label": "Bulk Assign Level 4",
+          "label": "Bulk Assign L4",
           "value": "bulk_assign_l4"
         }
       ]

@@ -10,8 +10,8 @@ NotificationQueueUtil.prototype = {
 	 *  {
 			event_name: {String} - name of event, mandatory
 			<type>: {string} - key should be param 1, value should be sys id of related record, mandatory
-			l: {string} - Level 4 added after the update
-			l_removed: {string} - Level 4 removed after the update
+			l: {string} - L4 added after the update
+			l_removed: {string} - L4 removed after the update
 		}
     */
     enqueue: function(type, fields) {
@@ -68,7 +68,7 @@ NotificationQueueUtil.prototype = {
 						// gs.info("NM removedLArr2: " + removedLArr.join())
 						grNQ.setValue("l_removed", newLRemovedArr.join());
 						
-						// Update existing Level_4 field when a Level 4 is removed
+						// Update existing Level_4 field when a L4 is removed
 						newLArr = this._arrayUtil.diff(newLArr, removedLArr);
 						grNQ.setValue("l", newLArr.join());
 					} else {
